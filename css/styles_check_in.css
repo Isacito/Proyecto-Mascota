@@ -1,0 +1,72 @@
+body{
+    background-image: url(/Proyecto_mascotas/img/fondo.jpg);
+    background-repeat: no-repeat;
+    height: 36vw;
+}
+.formulario{
+    border-radius: 1vw;
+    background: rgb(4,201,73);
+    background: linear-gradient(315deg, rgba(4,201,73,0.6644782913165266) 32%, rgba(1,124,244,1) 95%);
+    height: 40vw;
+    width: 30vw;
+    font-size: 1.5vw;
+    margin-left: 35%;
+}
+form{
+    padding: 0vw 2px 0px 50px;
+    display: grid;
+    gap: 0.1vw;
+}
+form img{
+    width: 10vw;
+    position: relative;
+    bottom: 1vw;
+    margin-left: 6.5vw;
+}
+input, label{
+    position: relative;
+    bottom: 2vw;
+    width: 20vw;
+    height: 1.5vw;
+}
+input{
+    border-radius: 5px;
+    height: 1.7vw;
+    border: none;
+}
+.button{
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    margin-left: 6.5vw;
+    cursor: pointer;
+    width: 9vw;
+    height: 6vh;
+    border: none;
+    border-radius: 1vw;
+}
+.button:hover{
+    opacity: 0.8;
+    background-color: #12d618;
+    color: black;
+    font-weight: 700;
+}
+#welcome-icon {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(190,241,208);
+    background: rgb(190,241,208);
+    background: linear-gradient(315deg, rgba(190,241,208,1) 0%, rgba(0,194,255,1) 27%, rgba(58,255,127,1) 50%, rgba(0,207,255,1) 67%, rgba(255,255,255,1) 100%);            display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+#welcome-icon.hidden {
+    opacity: 0;
+}
