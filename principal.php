@@ -12,14 +12,14 @@
     <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
     <!-- bootstrap core css -->
-    <link rel="stylesheet" type="text/css" href="/Proyecto_mascotas/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css"/>
     <!-- fonts style -->
     <link href="https://fonts.googleapis.com/css?family=Dosis:400,500|Poppins:400,700&display=swap" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="/Proyecto_mascotas/css/style.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
     <!-- responsive style -->
-    <link href="/Proyecto_mascotas/css/responsive.css" rel="stylesheet" />
-    <link rel="icon" href="/Proyecto_mascotas/img/icon.png">
+    <link href="/css/responsive.css" rel="stylesheet" />
+    <link rel="icon" href="/img/icon.png">
 </head>
 
 <body>
@@ -29,7 +29,7 @@
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg custom_nav-container ">
             <a class="navbar-brand" href="principal.php">
-                <img src="img/logo.png" alt="">
+                <img src="img/icon.png" alt="">
                 <span>
                 Petology
                 </span>
@@ -43,22 +43,22 @@
                 <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
                 <ul class="navbar-nav  ">
                     <li class="nav-item active">
-                    <a class="nav-link" href="/Proyecto_mascotas/principal.php">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/principal.php">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/Proyecto_mascotas/paginas/service.php">service </a>
+                    <a class="nav-link" href="/paginas/service.php">service </a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/Proyecto_mascotas/paginas/pets.php">Pet's gallery </a>
+                    <a class="nav-link" href="/paginas/pets.php">Pet's gallery </a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/Proyecto_mascotas/paginas/clinic.php"> clinic</a>
+                    <a class="nav-link" href="/paginas/clinic.php"> clinic</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/Proyecto_mascotas/paginas/contact.php">Contact us</a>
+                    <a class="nav-link" href="/paginas/contact.php">Contact us</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/Proyecto_mascotas/paginas/buy.php"> Buy now </a>
+                    <a class="nav-link" href="/paginas/buy.php"> Buy now </a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
@@ -66,7 +66,7 @@
                 </form>
                 </div>
                 <div class="quote_btn-container  d-flex justify-content-center">
-                    <a href="/Proyecto_mascotas/login.php" class="custom-button">Iniciar sesión</a>
+                    <a href="/login.php" class="custom-button">Iniciar sesión</a>
                 </div>
             </div>
             </nav>
@@ -100,7 +100,7 @@
                         Lorem Ipsum has been the industry's standard dummy text ever
                         </p>
                         <div class="btn-box">
-                        <a href="/Proyecto_mascotas/check_in.php" class="btn-1">
+                        <a href="/check_in.php" class="btn-1">
                             Register
                         </a>
                         <a href="" class="btn-2">
@@ -577,26 +577,26 @@
     </section>
     <!-- footer section -->
 
-    <script type="text/javascript" src="/Proyecto_mascotas/js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="/Proyecto_mascotas/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
 
     <script>
         // This example adds a marker to indicate the position of Bondi Beach in Sydney,
         // Australia.
         function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 11,
+            zoom: 12,
             center: {
-            lat: 40.645037,
-            lng: -73.880224
+            lat: 11.1052,
+            lng: -73.1266
             },
         });
 
         var image = 'images/maps-and-flags.png';
-        var beachMarker = new google.maps.Marker({
+        var hatonuevoMarker = new google.maps.Marker({
             position: {
-            lat: 40.645037,
-            lng: -73.880224
+            lat: 11.1052,
+            lng: -73.1266
             },
             map: map,
             icon: image

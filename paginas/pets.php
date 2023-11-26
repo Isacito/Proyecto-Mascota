@@ -15,13 +15,13 @@
 <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
     <!-- botstrap core css -->
-<link rel="stylesheet" type="text/css" href="/Proyecto_mascotas/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
     <!-- fonts style -->
 <link href="https://fonts.googleapis.com/css?family=Dosis:400,500|Poppins:400,700&display=swap" rel="stylesheet">
     <!-- Custom styles for this template -->
-<link href="/Proyecto_mascotas/css/style.css" rel="stylesheet" />
+<link href="/css/style.css" rel="stylesheet" />
     <!-- responsive style -->
-<link href="/Proyecto_mascotas/css/responsive.css" rel="stylesheet" />
+<link href="/css/responsive.css" rel="stylesheet" />
 </head>
 
 <body class="sub_page">
@@ -30,8 +30,8 @@
         <header class="header_section">
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg custom_nav-container ">
-            <a class="navbar-brand" href="principal.php">
-                <img src="/Proyecto_mascotas/img/logo.png" alt="">
+            <a class="navbar-brand" href="/principal.php">
+                <img src="/img/icon.png" alt="">
                 <span>
                 Petology
                 </span>
@@ -45,22 +45,22 @@
                 <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
                 <ul class="navbar-nav  ">
                     <li class="nav-item active">
-                    <a class="nav-link" href="/Proyecto_mascotas/principal.php">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/principal.php">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/Proyecto_mascotas/paginas/service.php">service </a>
+                    <a class="nav-link" href="/paginas/service.php">service </a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/Proyecto_mascotas/paginas/pets.php">Pet's gallery </a>
+                    <a class="nav-link" href="/paginas/pets.php">Pet's gallery </a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/Proyecto_mascotas/paginas/clinic.php"> clinic</a>
+                    <a class="nav-link" href="/paginas/clinic.php"> clinic</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/Proyecto_mascotas/paginas/contact.php">Contact us</a>
+                    <a class="nav-link" href="/paginas/contact.php">Contact us</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/Proyecto_mascotas/paginas/buy.php"> Buy now </a>
+                    <a class="nav-link" href="/paginas/buy.php"> Buy now </a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
@@ -88,19 +88,19 @@
         </div>
         <div class="container ">
         <div class="img_box box-1">
-            <img src="/Proyecto_mascotas/img/g-1.png" alt="">
+            <img src="/img/g-1.png" alt="">
         </div>
         <div class="img_box box-2">
-            <img src="/Proyecto_mascotas/img/g-2.png" alt="">
+            <img src="/img/g-2.png" alt="">
         </div>
         <div class="img_box box-3">
-            <img src="/Proyecto_mascotas/img/g-3.png" alt="">
+            <img src="/img/g-3.png" alt="">
         </div>
         <div class="img_box box-4">
-            <img src="/Proyecto_mascotas/img/g-4.png" alt="">
+            <img src="/img/g-4.png" alt="">
         </div>
         <div class="img_box box-5">
-            <img src="/Proyecto_mascotas/img/g-5.png" alt="">
+            <img src="/img/g-5.png" alt="">
         </div>
         </div>
     </section>
@@ -164,7 +164,7 @@
     </section>
     <!-- footer section -->
 
-<script type="text/javascript" src="/Proyecto_mascotas/js/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="/Proyecto_mascotas/js/bootstrap.js"></script>
+<script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.js"></script>
 </body>
 </html>

@@ -6,6 +6,12 @@ $dotenv->load();
 
 if(isset($_POST["REGISTRAR"])){
     require_once(__DIR__ ."/Process/CreateUser.php");
+
+    if($_POST["REGISTRAR"]){
+        echo "REGISTRO EXITOSO";
+    }else{
+        echo "ERROR AL REGISTRAR";
+    }
 }
 ?>
 
@@ -15,7 +21,7 @@ if(isset($_POST["REGISTRAR"])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/styles_check_in.css">
+    <link rel="stylesheet" href="css/styles_check.css">
 </head>
 <body>
     <div class="formulario">
@@ -37,22 +43,23 @@ if(isset($_POST["REGISTRAR"])){
             <input type="password" name="password">
             <br>
             <input type="submit" name="REGISTRAR" value="Registrar" class="button">
+            <a href="/login.php">INICIAR SECCION</a>
         </form>
     </div>
-    <!-- <form action="" method="post">
-    <label for="">Nombre:</label>
-    <input type="text" name="name">
-    <br>
-    <label for="">Usuario:</label>
-    <input type="text" name="username">
-    <br>
-    <label for="">correo:</label>
-    <input type="gmail" name="email">
-    <br>
-    <label for="">password</label>
-    <input type="password" name="password">
-    <br>
-    <input type="submit" name="REGISTRAR" value="registrar">
-    </form> -->
 </body>
 </html>
+<style>
+    a{
+        text-decoration: none;
+        color: black;
+        background-color:limegreen;
+        border: 40px;
+        border-radius: 10px;
+        text-align: center;
+        width: 70%;
+        margin-left: 20px;
+    }
+    a:hover{
+        background-color: darkgreen;
+    }
+</style>

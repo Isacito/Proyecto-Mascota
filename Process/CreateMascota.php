@@ -1,20 +1,10 @@
 <?php
-require_once(__DIR__ ."/../Proyecto_mascotas/controller/conexion.php");
-$mascota = new mascotaController();
-$mascotas = new Pets();
-$validar = true;
-$estado = true;
+require_once(__DIR__ ."/../controller/mascota.controller.php");
 
-$mascotas -> usuario = $_POST["usuario"];
-$mascotas -> nombre = $_POST["nombre"];
-$mascotas -> fechaN = $_POST["fechaN"];
-$mascotas -> raza = $_POST["raza"];
-if($validar){
-    $estado = $mascota -> create($mascotas);
-    if($estado){
-        echo "Guardado exitoso";
-    }else{
-        echo "Fatal";
-    }
-}
-?>
+$modeloMascota = new Pets;
+$mascotaController = new PetController;
+
+$modeloMascota->name = $_POST["nombre"];
+$modeloMascota->birthDate = $_POST["fecha"];
+$mascotaController->create($modeloMascota);
+

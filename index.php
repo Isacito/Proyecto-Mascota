@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
 <html>
 <head>
-    <title>Mi Página Web</title>
-    <link rel="icon" type="image/png" href="/Proyecto_mascotas/img/icon.png">
+    <title>icon</title>
+    <link rel="icon" href="/Proyecto-Mascota/img/icon.png">
     <style>
         #welcome-icon {
             position: fixed;
@@ -26,11 +25,9 @@
         }
     </style>
 </head>
-<body>
     <div id="welcome-icon">
-        <img src="/Proyecto_mascotas/img/icon.png" alt="Icono de Bienvenida">
+        <img src="/img/icon.png" alt="Icono de Bienvenida">
     </div>
-
     <script>
         setTimeout(function () {
             document.getElementById("welcome-icon").classList.add("hidden");
@@ -39,40 +36,5 @@
             }, 1000);
         }, 5000);
     </script>
-</body>
-</html>
-=======
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vet Clinic</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="shortcut icon" href="images/logo.png">
-</head>
-<body>
-    <main class="Tasks">
-        <header class="links">
-            <picture class="icon">
-                <img src="./images/logo.png" alt="">
-            </picture>
-            <input type="submit" name="sign_in" value="Sign in">
-            <input type="submit" name="check_in" value="Check in">
-        </header>
-
-    </main>
-    
-</body>
 </html>
 
-
-
-
-
-
-<?php
-
-
-
-?>
->>>>>>> 3f2b420cba14d07ed805fec4804447e871eaee4b

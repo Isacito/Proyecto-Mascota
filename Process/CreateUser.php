@@ -10,7 +10,7 @@ $status = true;
 $useR->name = $_POST["name"];
 $useR->username = $_POST["username"];
 $useR->email = $_POST["email"];
-$useR->password = md5($_POST["password"]);
+$useR->password = (password_hash(($_POST['password']), PASSWORD_DEFAULT));
 
 if ($useR->name == ""){
     $validar = false;
@@ -30,7 +30,7 @@ if ($useR->password == ""){
 }
 
 if ($validar){
-    if($status = $user -> create($useR)){
+    if($status = $user->create($useR)){
         if($status){
             echo "GUARDADO EXITOSAMENTE";
         } else{

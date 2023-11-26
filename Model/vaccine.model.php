@@ -1,7 +1,7 @@
 <?php
 
-class Vaccine{
-
+class Vaccine {
     public int $id;
     public string $name;
 }
+

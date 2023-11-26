@@ -1,5 +1,5 @@
 body{
-    background-image: url(/Proyecto_mascotas/img/fondo.jpg);
+    background-image: url(/img/fondo.jpg);
     background-repeat: no-repeat;
     height: 36vw;
 }
@@ -36,7 +36,7 @@ input{
     height: 1.7vw;
     border: none;
 }
-.button{
+button{
     background-color: #4CAF50;
     color: white;
     text-align: center;
@@ -46,8 +46,9 @@ input{
     height: 6vh;
     border: none;
     border-radius: 1vw;
+    text-decoration: none;
 }
-.button:hover{
+button:hover{
     opacity: 0.8;
     background-color: #12d618;
     color: black;
